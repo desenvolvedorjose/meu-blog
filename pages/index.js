@@ -16,13 +16,21 @@ padding-top: 16px;
 padding-bottom: 16px;
 margin-bottom: 32px;
 `
+const Body = styled.div`
+padding-left: 16px;
+padding-right: 16px;
+max-width: 700px;
+margin: auto;
+` 
 
 export default function Home() {
   return ( 
+    <Body>
     <Container>
       <Image src="https://avatars.githubusercontent.com/u/88067039?v=4" /> 
       <Title>José Garcia </Title>
-    </Container>
+    </Container> 
+    </Body>
      )
   
 }
